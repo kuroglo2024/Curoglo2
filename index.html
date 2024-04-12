@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Școala mea</title>
+    <meta charset="UTF-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <div id="menu-btn" onclick="menu()">
+        <i id="hamburger" class="fas fa-bars"></i>
+        <i id="close" class="fas fa-times hidden"></i>
+    </div>
+
+    <navbar id="side-menu">
+        <div id="menu-logo">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+        <a href="#despre" onclick="menu()">О нас</a>
+        <a href="#galerie" onclick="menu()">Галерея</a>
+        <a href="#orar" onclick="menu()">Расписание</a>
+        <a href="#contacte" onclick="menu()">Контакты</a>
+        <a href="pages/acte.html" onclick="menu()">Нормативные документы</a>
+    </navbar>
+
+    <main id="main">
+        <section id="intro">
+            <div id="intro-content">
+                <h1 data-aos="zoom-in">
+                    ПУ Гимназия <br /> им. Степана Курогло
+                </h1>
+                <a data-aos="zoom-in" data-aos-delay="500" href="#despre">Узнать больше</a>
+            </div>
+        </section>
+
+        <section id="despre">
+            <div class="centered" data-aos="fade-up">
+                <h1>О НАС</h1>
+                <p style="text-align:right">  Школа – это мастерская, где формируется мысль подрастающего поколения, 
+                    <br />надо крепко держать ее в руках, если не хочешь выпускать из рук будущее.
+                    <br />Анри Барбюс </p>
+                <p style="text-align:right">
+                </p>
+                <p style="text-align:right"></p>
+                <br /> <q>Добро пожаловать в гимназию им. Степана Курогло!</q>
+                <br />
+
+                    <a href="images/kurodlo_1.png" target="_blank">
+                       <img src="images/kurodlo_1.png" data-aos="flip-up">
+                   </a>
+               
+                <p style="text-align:justify">1 сентября 1982 г. Комратская средняя школа распахнула двери своим ученикам. Этот день считается днем рождения школы.
+                    В 2011.23.12 постановлением Президиума Народного Собрания  Гагаузии  школе было присвоено имя ученого-историка,
+                    поэта, педагога, доктора исторических наук доцента, общественного и политического деятеля,
+                    Почетного гражданина Гагаузии Степана Степановича Куроглу.
+                </p>
+                <p style="text-align:justify">
+                    За этот период мы обеспечили качественную учебу, вырастили образованных, эрудированных и трудолюбивых студентов.
+                    Учащиеся нашей школы также приносят известность на олимпиадах и конкурсах. 
+                    Мы всегда открыты предложениям и новым идеям, и в нашей школе ученики чувствуют себя комфортно.
+                </p>       
+                 
+                <div class="centered" data-aos="fade-up">
+                <div class="slideshow">
+                    <div class="slide">
+                        <div class="nr-slide"> 1/4 </div>
+                        <img src="images/scoala_12.jpg" />
+                    </div>
+                    <div class="slide">
+                        <div class="nr-slide"> 2/4 </div>
+                        <img src="images/scoala_11.jpg" />
+                    </div>
+                    <div class="slide">
+                        <div class="nr-slide"> 3/4 </div>
+                        <img src="images/scoala_2.jpg" />
+                    </div>
+                    <div class="slide">
+                        <div class="nr-slide"> 4/4 </div>
+                        <img src="images/scoala_3.jpg" />
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="centered">Наше премущество</h1>
+
+           <div class="cards">
+            <div class="card" data-aos="flip-left" data-aos-delay="900">
+                <i class="fas fa-user-tie"></i>
+                <h3>Профессионализм</h3>
+            </div>
+
+                <div class="card" data-aos="flip-left" data-aos-delay="300">
+                    <i class="far fa-check-circle"></i>
+                    <h3>Качество</h3>
+                </div>
+
+                <div class="card" data-aos="flip-left" data-aos-delay="600">
+                    <i class="fas fa-book"></i>
+                    <h3>Преданность</h3>
+                </div>
+
+                <div class="card" data-aos="flip-left" data-aos-delay="1200">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Безопасность</h3>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <section id="galerie">
+            <h1 class="centered">Галерея</h1>
+            <br>
+            <br>
+            <div class="container-galerie">
+                <a href="images/scoala_5.jpg" target="_blank">
+                    <img src="images/scoala_5.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala_1.jpg" target="_blank">
+                    <img src="images/scoala_1.jpg" data-aos="flip-up">
+                </a>
+                
+                <a href="images/scoala_51.jpg" target="_blank">
+                    <img src="images/scoala_51.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala522.jpg" target="_blank">
+                    <img src="images/scoala522.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala1.jpg" target="_blank">
+                    <img src="images/scoala1.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala2.jpg" target="_blank">
+                    <img src="images/scoala2.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala24.jpg" target="_blank">
+                    <img src="images/scoala24.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala21.jpg" target="_blank">
+                    <img src="images/scoala21.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala23.jpg" target="_blank">
+                    <img src="images/scoala23.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala4.jpg" target="_blank">
+                    <img src="images/scoala4.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala25.jpg" target="_blank">
+                    <img src="images/scoala25.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala251.jpg" target="_blank">
+                    <img src="images/scoala251.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala252.jpg" target="_blank">
+                    <img src="images/scoala252.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala_2.jpg" target="_blank">
+                    <img src="images/scoala_2.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala_12.jpg" target="_blank">
+                    <img src="images/scoala_12.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala_3.jpg" target="_blank">
+                    <img src="images/scoala_3.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala6.jpg" target="_blank">
+                    <img src="images/scoala6.jpg" data-aos="flip-up">
+                </a>
+
+
+                <a href="images/scoala_11.jpg" target="_blank">
+                    <img src="images/scoala_11.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala_13.jpg" target="_blank">
+                    <img src="images/scoala_13.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala5.jpg" target="_blank">
+                    <img src="images/scoala5.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala71.jpg" target="_blank">
+                    <img src="images/scoala71.jpg" data-aos="flip-up">
+                </a>
+               
+                <a href="images/scoala7.jpg" target="_blank">
+                    <img src="images/scoala7.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala51.jpg" target="_blank">
+                    <img src="images/scoala51.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala52.jpg" target="_blank">
+                    <img src="images/scoala52.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala53.jpg" target="_blank">
+                    <img src="images/scoala53.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala6.jpg" target="_blank">
+                    <img src="images/scoala6.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala61.jpg" target="_blank">
+                    <img src="images/scoala61.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/scoala62.jpg" target="_blank">
+                    <img src="images/scoala62.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/ekskursiai.jpg" target="_blank">
+                    <img src="images/ekskursiai.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/ekskursiai_1.jpg" target="_blank">
+                    <img src="images/ekskursiai_1.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/ekskursiai_2.jpg" target="_blank">
+                    <img src="images/ekskursiai_2.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/ekskursiai_3.jpg" target="_blank">
+                    <img src="images/ekskursiai_3.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/ekskursiai_4.jpg" target="_blank">
+                    <img src="images/ekskursiai_4.jpg" data-aos="flip-up">
+                </a>
+                
+                <a href="images/ekskursiai_5.jpg" target="_blank">
+                    <img src="images/ekskursiai_5.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/ekskursiai_6.jpg" target="_blank">
+                    <img src="images/ekskursiai_7.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/ekskursiai_8.jpg" target="_blank">
+                    <img src="images/ekskursiai_8.jpg" data-aos="flip-up">
+                </a>
+               
+            </div>
+
+            <div class="row">
+
+                <div class="col-50 video">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100014039585712%2Fvideos%2F1094002291077747%2F%3Fidorvanity%3D3480659052050107&show_text=false&width=560&t=0" 
+                    width="400" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" 
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div>
+                <div class="col-50 video">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100014039585712%2Fvideos%2F777981687033879%2F%3Fidorvanity%3D3480659052050107&show_text=false&width=560&t=0"
+                     width="400" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" 
+                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section id="orar">
+            <h1 class="centered">Расписание уроков</h1>
+
+            <div class="acordeon">
+                <input type="checkbox" id="clasa-10">
+                <label for="clasa-10"><i class="fas fa-caret-down"></i> Классы V-VI</label>
+
+                <div class="content">
+                    <a href="images/5 kl.jpg">
+                        <div class="clasa">5 кл</div>
+                        <img src="images/5 kl.jpg" />
+                    </a>
+                    <a href="images/6a kl.jpg">
+                        <div class="clasa">6A кл</div>
+                        <img src="images/6a kl.jpg" />
+                    </a>
+                    <a href="images/6b kl.jpg">
+                        <div class="clasa">6Б кл</div>
+                        <img src="images/6b kl.jpg" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="acordeon">
+                <input type="checkbox" id="clasa-11">
+                <label for="clasa-11"><i class="fas fa-caret-down"></i> Классы VII-IX</label>
+
+                <div class="content">
+                    <a href="images/7 kl.jpg">
+                        <div class="clasa">7 кл</div>
+                        <img src="images/7 kl.jpg" />
+                    </a>
+                    <a href="images/8 kl.jpg">
+                        <div class="clasa">8 кл</div>
+                        <img src="images/8 kl.jpg" />
+                    </a>
+                    <a href="images/9 kl.jpg">
+                        <div class="clasa">9 кл</div>
+                        <img src="images/9 kl.jpg" />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacte">
+           
+            <div class="row">
+                <div class="col-50">
+                    <h1 class="centered">Контакты</h1>
+                    <div>
+                        <b>Telefon: </b>
+                        <span>+373 298 31 951</span>
+                    </div>
+                    <div>
+                        <b>Адрес: </b>
+                        <span>ул. Суворого, 60</span>
+                    </div>
+                    <div>
+                        <b>Email: </b>
+                        <span>scoala2curoglo@mail.ru</span>
+                    </div>
+
+                    <div class="formular-container">
+                        <form id="formular">
+                            <h3>Оставить сообщение</h3>
+                            <input type="text" id="nume" placeholder="Имя" required>
+                            <br />
+                            <input type="text" id="email" placeholder="Email" required>
+                            <br />
+                            <textarea id="mesaj" rows="4" placeholder="Сообщение" required></textarea>
+                            <br />
+                            <input onclick="send()" type="button" id="transmite" value="Отправить">
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="col-50">
+                    <h1 class="centered">Место расположения</h1>
+                    <br />
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2756.4763125035934!2d28.639106710422208!3d46.300377170979374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b620a8d84da633%3A0xbd48bca58a2008b3!2z0KjQutC-0LvQsCDihJYgMg!5e0!3m2!1sru!2s!4v1710728828254!5m2!1sru!2s" width="450" height="450" 
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="centered">
+                <span>kuroglokuroglo2@gmail.com   </span>
+                <a href="https://www.facebook.com/groups/3480659052050107/" target="_blank">
+                    <img src="images/fb.png" />
+                </a>
+            </div>
+            <div class="titlu-footer">
+                Данный веб-сайт был выполнен в рамках Региональной олимпиады: 
+                <br />
+                IT-технологии и не обязательно должен быть согласован с директором или представителем организации.
+            </div>
+        </footer>
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
